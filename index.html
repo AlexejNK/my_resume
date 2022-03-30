@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="aleksey, cv, resume">
+    <meta name="description" content="Это сайт - резюме Алексея Козырева">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Aleksey Resume</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="info">
+            <img src="avatar.jpg" alt="Алексей Козырев" class="avatar">
+
+            <div class="info-text">
+                <h1>Алексей Козырев</h1>
+
+                <p>Я живу в городе <strong>Прага</strong> - одном из красивейших городов <strong>Европы.</strong></p>
+
+                <p>Я люблю <em>прогулки, книги и вкусно готовить.</em></p>
+
+                <h4>Список моих социальных сетей:</h4>
+
+                <a href="https://www.facebook.com/alex.voronin.549" target="_blank"> Facebook </a>
+                |
+                <a href="https://t.me/Alex_AZI50" target="_blank"> Telegram </a>
+                |
+                <a href="https://www.vk.com/id654973528" target="_blank"> В контакте </a>
+            </div>
+        </div>
+
+        <div class="card bg-green">
+            <h2>Мои хобби</h2>
+
+            <ol class="list">
+                <li>Чтение книг</li>
+                <li>Прогулки</li>
+                <li>Электронные самоделки</li>
+            </ol>
+        </div>
+
+        <div class="card bg-red">
+            <h2>Опыт работы:</h2>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Название организации</th>
+                        <th>Должность</th>
+                        <th>Годы работы</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ТАДИ</td>
+                        <td>Инженер-электрик</td>
+                        <td>1988-1989</td>
+                    </tr>
+                    <tr>
+                        <td>Кооп. "Универсал"</td>
+                        <td>Инженер-наладчик КИПиА</td>
+                        <td>1989-1994</td>
+                    </tr>
+                    <tr>
+                        <td>ООО "Элекон-Ж"</td>
+                        <td>Технический директор</td>
+                        <td>1994-1998</td>
+                    </tr>
+                    <tr>
+                        <td>ООО "Кванта-плюс"</td>
+                        <td>Директор</td>
+                        <td>1998-2002</td>
+                    </tr>
+                    <tr>
+                        <td>El-Service S.R.O.</td>
+                        <td>Инженер-наладчик КИПиА</td>
+                        <td>2002-2008</td>
+                    </tr>
+                    <tr>
+                        <td>------------------</td>
+                        <td>Инвалидность</td>
+                        <td>2008 - сейчас</td>
+                    </tr>
+                    <tr>
+                        <td>------------------</td>
+                        <td>Изучаю HTML/CSS/JS</td>
+                        <td>2021 - сейчас</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card bg-yellow">
+            <h2>Курсы, которые я учу и хочу изучать:</h2>
+
+            <ul class="link-list">
+                <li>
+                    <a href="https://vladilen.ru/teach/control/stream/view/id/560546100" target="_blank">Курсы по основам HTML/CSS</a>
+                </li>
+                <li>
+                    <a href="https://vladilen.ru/junior" target="_blank">Получение профессии Frontend Разработчика</a>
+                </li>
+            </ul>
+        </div>
+
+
+
+        <form action="/" class="form">
+            <h2>Связаться со мной</h2>
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Ваш e-mail:</label>
+                    <input type="email" id="email" placeholder="Введите e-mail">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Ваше сообщение:</label>
+                <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+            </div>
+
+            <input class="btn" type="submit" value="Отправить">
+        </form>
+
+    </div>
+</body>
+</html>
