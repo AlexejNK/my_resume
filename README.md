@@ -1,2 +1,2 @@
 # my_resume
-[Result my job :)](https:/alexejnk.github.io/)
+[Result my job :)](https://github.com/AlexejNK/AlexejNK.github.io/blob/main/index.html)
